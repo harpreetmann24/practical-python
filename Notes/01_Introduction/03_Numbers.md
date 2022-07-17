@@ -266,4 +266,6 @@ True
 >>>
 ```
 
+### Solution Exercise 1.12: A Mystery
+bool(x) evaluates x != 0 , 'False' is a string and string != 0
 [Contents](../Contents.md) \| [Previous (1.2 A First Program)](02_Hello_world.md) \| [Next (1.4 Strings)](04_Strings.md)

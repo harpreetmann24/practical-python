@@ -27,7 +27,7 @@ while principal > 0:
             principal = principal * (1 + rate/12) - payment
             total_paid += payment
 
-    print(f'{month:<5}|| {round(total_paid, 1):<10}|| {round(principal, 2)}')
+    print(f'{month:>5}|| {round(total_paid, 1):<10}|| {round(principal, 2)}')
     month += 1
 
 # print('Total Paid', round(total_paid, 1))
